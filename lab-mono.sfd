@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1441203091
+ModificationTime: 1441203236
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -109,7 +109,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top" "" "diacritics top" "" 
-BeginChars: 65536 193
+BeginChars: 65536 194
 
 StartChar: space
 Encoding: 32 32 0
@@ -2837,28 +2837,27 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-242 704 m 0xf0
- 242 748 276 784 320 784 c 0
- 364 784 400 748 400 704 c 0
- 400 660 364 626 320 626 c 0
- 276 626 242 660 242 704 c 0xf0
-160 455 m 29
- 160 525 l 29
- 380 525 l 29
- 380 455 l 29xe8
- 160 455 l 29
-93 0 m 29
- 93 70 l 29
- 567 70 l 29
- 567 0 l 29
- 93 0 l 29
-300 70 m 29
- 300 455 l 29
- 380 455 l 29
- 380 455 380 70 380 70 c 5
- 380 70 339 70 300 70 c 29
+242 709 m 4xf0
+ 242 753 276 789 320 789 c 4
+ 364 789 400 753 400 709 c 4
+ 400 665 364 631 320 631 c 4
+ 276 631 242 665 242 709 c 4xf0
+160 455 m 25
+ 160 525 l 25
+ 380 525 l 25
+ 380 455 l 25xe8
+ 160 455 l 25
+93 0 m 25
+ 93 70 l 25
+ 567 70 l 25
+ 567 0 l 25
+ 93 0 l 25
+300 70 m 25
+ 300 455 l 25
+ 380 455 l 25
+ 380 455 380 70 380 70 c 1
+ 380 70 339 70 300 70 c 25
 EndSplineSet
-Validated: 5
 Layer: 2
 Comment: "surprisingly the i needs a thinner stem. The rather heaver dot could be the reason..."
 EndChar
@@ -2881,11 +2880,11 @@ SplineSet
  313 -129 355 -79 355 13 c 2
  355 70 l 25
  435 70 l 25
-287 704 m 0xf0
- 287 748 321 784 365 784 c 0
- 409 784 445 748 445 704 c 0
- 445 660 409 626 365 626 c 0
- 321 626 287 660 287 704 c 0xf0
+287 709 m 4xf0
+ 287 753 321 789 365 789 c 4
+ 409 789 445 753 445 709 c 4
+ 445 665 409 631 365 631 c 4
+ 321 631 287 665 287 709 c 4xf0
 185 455 m 25
  185 525 l 25
  435 525 l 25
@@ -2897,7 +2896,6 @@ SplineSet
  435 455 435 70 435 70 c 1
  435 70 394 70 355 70 c 25
 EndSplineSet
-Validated: 5
 Layer: 2
 EndChar
 
@@ -3963,7 +3961,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 0 119 2
 Refer: 33 65 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4078,7 +4075,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 4.5 119 2
 Refer: 37 69 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4134,7 +4130,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 0 119 2
 Refer: 41 73 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4190,7 +4185,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 0 119 2
 Refer: 47 79 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 EndChar
 
@@ -4373,7 +4367,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 -2 -61 2
 Refer: 65 97 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4496,9 +4489,8 @@ Flags: H
 LayerCount: 3
 Back
 Fore
-Refer: 98 168 N 1 0 0 1 -10 -61 2
+Refer: 98 168 N 1 0 0 1 20 -61 2
 Refer: 146 305 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4554,7 +4546,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 0 -61 2
 Refer: 79 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 EndChar
 
@@ -4658,7 +4649,6 @@ Back
 Fore
 Refer: 98 168 N 1 0 0 1 5 -61 2
 Refer: 85 117 N 1 0 0 1 0 0 3
-Validated: 5
 Layer: 2
 EndChar
 
@@ -4880,7 +4870,7 @@ StartChar: uni0307
 Encoding: 775 775 152
 Width: 640
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 626 158<267.189 373.718>
 VStem: 242 158<651.189 757.718>
 AnchorPoint: "top" 320 525 mark 0
@@ -4888,13 +4878,12 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-242 704 m 0
- 242 748 276 784 320 784 c 0
- 364 784 400 748 400 704 c 0
- 400 660 364 626 320 626 c 0
- 276 626 242 660 242 704 c 0
+242 709 m 4
+ 242 753 276 789 320 789 c 4
+ 364 789 400 753 400 709 c 4
+ 400 665 364 631 320 631 c 4
+ 276 631 242 665 242 709 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar
 
@@ -4902,7 +4891,7 @@ StartChar: uni0308
 Encoding: 776 776 153
 Width: 640
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 651 132<172.303 269.697 370.303 467.697>
 VStem: 155 132<668.303 765.697> 353 132<668.303 765.697>
 AnchorPoint: "top" 320 525 mark 0
@@ -4910,18 +4899,17 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-155 717 m 4
- 155 753 185 783 221 783 c 4
- 257 783 287 753 287 717 c 4
- 287 681 257 651 221 651 c 4
- 185 651 155 681 155 717 c 4
-353 717 m 4
- 353 753 383 783 419 783 c 4
- 455 783 485 753 485 717 c 4
- 485 681 455 651 419 651 c 4
- 383 651 353 681 353 717 c 4
+155 722 m 4
+ 155 758 185 788 221 788 c 4
+ 257 788 287 758 287 722 c 4
+ 287 686 257 656 221 656 c 4
+ 185 656 155 686 155 722 c 4
+353 722 m 4
+ 353 758 383 788 419 788 c 4
+ 455 788 485 758 485 722 c 4
+ 485 686 455 656 419 656 c 4
+ 383 656 353 686 353 722 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 EndChar
 
@@ -5842,8 +5830,21 @@ Refer: 47 79 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar
 
+StartChar: atilde
+Encoding: 227 227 191
+Width: 640
+VWidth: 0
+Flags: H
+LayerCount: 3
+Back
+Fore
+Refer: 189 771 N 1 0 0 1 15 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar
+
 StartChar: ntilde
-Encoding: 241 241 191
+Encoding: 241 241 192
 Width: 640
 VWidth: 0
 Flags: H
@@ -5856,7 +5857,7 @@ Layer: 2
 EndChar
 
 StartChar: Ntilde
-Encoding: 209 209 192
+Encoding: 209 209 193
 Width: 640
 VWidth: 0
 Flags: H
