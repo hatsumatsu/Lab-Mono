@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1456911053
+ModificationTime: 1457115332
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -112,7 +112,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top" "" "diacritics top" "" 
-BeginChars: 65536 331
+BeginChars: 65536 335
 
 StartChar: space
 Encoding: 32 32 0
@@ -227,7 +227,7 @@ StartChar: dollar
 Encoding: 36 36 4
 Width: 640
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Fore
@@ -1631,11 +1631,11 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-170 317 m 29
+170 317 m 25
  170 399 l 29
- 470 399 l 29
- 470 317 l 29
- 170 317 l 29
+ 470 399 l 25
+ 470 317 l 25
+ 170 317 l 25
 470 0 m 25
  470 705 l 25
  555 705 l 25
@@ -8229,6 +8229,98 @@ LayerCount: 3
 Back
 Fore
 Refer: 209 772 S 1 0 0 1 0 0 2
+Layer: 2
+EndChar
+
+StartChar: uni0332
+Encoding: 818 818 331
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Back
+Fore
+SplineSet
+0 -260 m 5
+ 640 -260 l 5
+ 640 -340 l 5
+ 0 -340 l 5
+ 0 -260 l 5
+EndSplineSet
+Layer: 2
+EndChar
+
+StartChar: uni0305
+Encoding: 773 773 332
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Back
+Fore
+SplineSet
+0 1020 m 5
+ 640 1020 l 5
+ 640 940 l 5
+ 0 940 l 5
+ 0 1020 l 5
+EndSplineSet
+Layer: 2
+EndChar
+
+StartChar: uni23B9
+Encoding: 9145 9145 333
+Width: 640
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Back
+Fore
+SplineSet
+320 1020 m 5
+ 405 1020 l 5
+ 405 -339 l 5
+ 320 -339 l 5
+ 320 1020 l 5
+0 -260 m 5
+ 320 -260 l 5
+ 320 -340 l 5
+ 0 -340 l 5
+ 0 -260 l 5
+0 1020 m 5
+ 320 1020 l 5
+ 320 940 l 5
+ 0 940 l 5
+ 0 1020 l 5
+EndSplineSet
+Layer: 2
+EndChar
+
+StartChar: uni23B8
+Encoding: 9144 9144 334
+Width: 640
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Back
+Fore
+SplineSet
+320 -340 m 1
+ 235 -340 l 1
+ 235 1019 l 1
+ 320 1019 l 1
+ 320 -340 l 1
+640 940 m 1
+ 320 940 l 1
+ 320 1020 l 1
+ 640 1020 l 1
+ 640 940 l 1
+640 -340 m 1
+ 320 -340 l 1
+ 320 -260 l 1
+ 640 -260 l 1
+ 640 -340 l 1
+EndSplineSet
 Layer: 2
 EndChar
 EndChars
