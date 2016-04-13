@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1457115332
+ModificationTime: 1460577205
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 10
+WinInfo: 182 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2001,34 +2001,57 @@ StartChar: R
 Encoding: 82 82 50
 Width: 640
 VWidth: 0
-Flags: HW
-AnchorPoint: "bottom" 310 0 basechar 0
-AnchorPoint: "top" 310 705 basechar 0
+Flags: HWO
+AnchorPoint: "bottom" 318 0 basechar 0
+AnchorPoint: "top" 313 705 basechar 0
 LayerCount: 3
 Back
+SplineSet
+493 0 m 13
+ 328 320 l 29
+ 426 320 l 29
+ 590 0 l 21
+ 558.666992188 0 524.333007812 0 493 0 c 13
+180 705 m 29
+ 180 705 340 705 340 705 c 4
+ 475 705 565 632 565 505 c 4
+ 565 380 475 305 340 305 c 4
+ 180 305 l 29
+ 180 385 l 29
+ 180 385 340 385 340 385 c 4
+ 435 385 480 430 480 505 c 4
+ 480 580 435 625 340 625 c 4
+ 180 625 l 29
+ 180 705 l 29
+95 0 m 29
+ 95 705 l 29
+ 180 705 l 29
+ 180 0 l 29
+ 95 0 l 29
+EndSplineSet
 Fore
 SplineSet
-493 0 m 9
- 328 320 l 25
- 426 320 l 25
- 590 0 l 17
- 558.666992188 0 524.333007812 0 493 0 c 9
-180 705 m 25
- 180 705 340 705 340 705 c 0
- 475 705 565 632 565 505 c 0
- 565 380 475 305 340 305 c 0
- 180 305 l 25
- 180 385 l 25
- 180 385 340 385 340 385 c 0
- 435 385 480 430 480 505 c 0
- 480 580 435 625 340 625 c 0
- 180 625 l 25
- 180 705 l 25
-95 0 m 25
- 95 705 l 25
- 180 705 l 25
- 180 0 l 25
- 95 0 l 25
+482 0 m 9
+ 296 320 l 25
+ 388 320 l 25
+ 578 0 l 17
+ 482 0 l 9
+188 705 m 25
+ 318 705 l 6
+ 453 705 543 632 543 505 c 0
+ 543 380 453 305 318 305 c 0
+ 188 305 l 25
+ 188 385 l 25
+ 318 385 l 2
+ 413 385 458 430 458 505 c 0
+ 458 580 413 625 318 625 c 2
+ 188 625 l 25
+ 188 705 l 25
+103 0 m 25
+ 103 705 l 25
+ 188 705 l 25
+ 188 0 l 25
+ 103 0 l 25
 EndSplineSet
 Layer: 2
 EndChar
@@ -6981,11 +7004,11 @@ StartChar: Racute
 Encoding: 340 340 259
 Width: 640
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 3
 Back
 Fore
-Refer: 150 769 N 1 0 0 1 -30 180 2
+Refer: 150 769 N 1 0 0 1 -22 180 2
 Refer: 50 82 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar
@@ -7007,11 +7030,11 @@ StartChar: Rcaron
 Encoding: 344 344 261
 Width: 640
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 3
 Back
 Fore
-Refer: 155 780 N 1 0 0 1 -10 180 2
+Refer: 155 780 N 1 0 0 1 -7 180 2
 Refer: 50 82 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar
