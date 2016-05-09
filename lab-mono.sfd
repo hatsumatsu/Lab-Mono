@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1461859835
+ModificationTime: 1462811099
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,6 +44,7 @@ HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "sta" { "sta-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -54,7 +55,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 10
+WinInfo: 4966 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -112,7 +113,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top" "" "diacritics top" "" 
-BeginChars: 65536 335
+BeginChars: 65538 337
 
 StartChar: space
 Encoding: 32 32 0
@@ -604,7 +605,9 @@ StartChar: period
 Encoding: 46 46 14
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -5 156<266.691 373.309>
+VStem: 243 154<19.2149 126.785>
 LayerCount: 3
 Back
 Fore
@@ -623,7 +626,7 @@ StartChar: slash
 Encoding: 47 47 15
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 3
 Back
 Fore
@@ -1079,7 +1082,9 @@ StartChar: colon
 Encoding: 58 58 26
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -5 156<266.691 373.309> 369 156<266.691 373.309>
+VStem: 243 154<19.2149 126.785 393.215 500.785>
 LayerCount: 3
 Back
 Fore
@@ -2721,33 +2726,33 @@ StartChar: d
 Encoding: 100 100 68
 Width: 640
 VWidth: 0
-Flags: HW
-HStem: -5 80<230.158 392.136> 450 80<230.688 392.136>
+Flags: W
+HStem: -5 80<230.158 392.136> 450 80<230.688 392.136> 735 20G<460 545>
 VStem: 65 85<162.301 363.501> 460 85<23.1 77 396 755> 470 75<0 53.9 153 373> 500 5<191 332>
 LayerCount: 3
 Back
 Fore
 SplineSet
-470 263 m 0xe8
+470 263 m 0xf4
  470 373 410 450 315 450 c 0
  212 450 150 378 150 263 c 0
  150 148 212 75 315 75 c 0
- 410 75 470 153 470 263 c 0xe8
-505 263 m 0xe4
+ 410 75 470 153 470 263 c 0xf4
+505 263 m 0xf2
  505 138 465 -5 300 -5 c 0
  152 -5 65 98 65 263 c 0
  65 428 155 530 300 530 c 0
- 465 530 505 388 505 263 c 0xe4
-545 755 m 25xf0
+ 465 530 505 388 505 263 c 0xf2
+545 755 m 25xf8
  545 0 l 25
- 470 0 l 17xe8
+ 470 0 l 17xf4
  460 77 l 0
- 460 149 l 0xf0
+ 460 149 l 0xf8
  500 191 l 0
- 500 332 l 0xe4
+ 500 332 l 0xf2
  460 396 l 0
  460 755 l 9
- 545 755 l 25xf0
+ 545 755 l 25xf8
 EndSplineSet
 Validated: 5
 Layer: 2
@@ -2913,23 +2918,25 @@ StartChar: h
 Encoding: 104 104 72
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 21G<115 200 450 535> 450 80<264.023 408.376> 735 20G<115 200>
+VStem: 115 85<0 755> 190 10<306.6 434> 450 85<0 407.271>
 LayerCount: 3
 Back
 Fore
 SplineSet
-115 755 m 9
+115 755 m 9xf4
  200 755 l 1
- 200 0 l 1xd8
+ 200 0 l 1
  115 0 l 1
- 115 755 l 9
-200 270 m 1xd8
- 200 270 190 392 190 392 c 1
+ 115 755 l 9xf4
+200 270 m 1
+ 200 270 190 392 190 392 c 1xec
  191 434 222 530 350 530 c 0
  523 530 535 391 535 329 c 1
  535 329 466 329 450 329 c 1
  450 390 423 450 340 450 c 0
- 236 450 200 365 200 270 c 1xd8
+ 236 450 200 365 200 270 c 1
 535 329 m 1
  535 0 l 1
  450 0 l 1
@@ -3092,36 +3099,38 @@ StartChar: m
 Encoding: 109 109 77
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 21G<79 160 280 360 480 561> 460 70<196.575 270.672 393.363 468.917>
+VStem: 79 71<462 525> 150 10<313.6 440> 280 80<0 376> 342 18<348.444 440> 480 81<0 451.39>
 LayerCount: 3
 Back
 Fore
 SplineSet
-160 280 m 1xd8
+160 280 m 1xda
  160 280 150 392 150 392 c 1
  150 440 172 530 258 530 c 0
  342 530 360 451 360 376 c 1
  360 376 280 376 280 376 c 1
  280 434 271 460 238 460 c 0
- 180 460 160 375 160 280 c 1xd8
-360 280 m 1xd8
- 360 280 342 392 342 392 c 1
+ 180 460 160 375 160 280 c 1xda
+360 280 m 1
+ 360 280 342 392 342 392 c 1xc6
  342 440 369 530 455 530 c 0
  546 530 561 451 561 376 c 1
  561 376 480 376 480 376 c 1
  480 434 468 460 435 460 c 0
- 377 460 360 375 360 280 c 1xd8
-360 376 m 1
+ 377 460 360 375 360 280 c 1
+360 376 m 1xca
  360 0 l 1
  280 0 l 1
  280 376 l 1
- 360 376 l 1
-79 525 m 1
- 79 525 150 525 150 525 c 1
+ 360 376 l 1xca
+79 525 m 1xe2
+ 79 525 150 525 150 525 c 1xe2
  160 435 l 1
- 160 0 l 1
+ 160 0 l 1xd2
  79 0 l 1
- 79 525 l 1
+ 79 525 l 1xe2
 561 376 m 1
  561 0 l 1
  480 0 l 1
@@ -3326,7 +3335,7 @@ StartChar: s
 Encoding: 115 115 83
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -5 80<225.123 425.226> 451 79<224.684 418.077>
 VStem: 116.685 83.9707<343.665 427.386> 462.205 84.2246<107.284 189.55>
 AnchorPoint: "cedilla" 325 0 basechar 0
@@ -3361,7 +3370,9 @@ StartChar: t
 Encoding: 116 116 84
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -5 77<322.274 468.019>
+VStem: 193 85<118.609 212>
 LayerCount: 3
 Back
 Fore
@@ -8365,6 +8376,40 @@ SplineSet
  640 -340 l 1
 EndSplineSet
 Layer: 2
+EndChar
+
+StartChar: slash_slash
+Encoding: 65536 -1 335
+Width: 640
+VWidth: 0
+GlyphClass: 3
+Flags: W
+LayerCount: 3
+Back
+Fore
+Refer: 15 47 S 1 0 0 1 135 0 2
+Refer: 15 47 S 1 0 0 1 -137 0 2
+Layer: 2
+LCarets2: 1 0
+Ligature2: "sta-1" slash slash
+EndChar
+
+StartChar: colon_slash_slash
+Encoding: 65537 -1 336
+Width: 1280
+VWidth: 0
+Flags: WO
+HStem: -5 156<133.191 239.809> 369 156<133.191 239.809>
+VStem: 109.5 154<19.2149 126.785 393.215 500.785>
+LayerCount: 3
+Back
+Fore
+Refer: 15 47 S 1 0 0 1 582 0 2
+Refer: 15 47 N 1 0 0 1 310 0 2
+Refer: 26 58 N 1 0 0 1 -133.5 0 2
+Layer: 2
+LCarets2: 2 0 0
+Ligature2: "sta-1" colon slash slash
 EndChar
 EndChars
 EndSplineFont
