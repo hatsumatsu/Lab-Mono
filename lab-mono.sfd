@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1462811099
+ModificationTime: 1470158113
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,6 +44,7 @@ HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 3 0 0 "'salt' Stylistic Alternatives in Latin lookup 1" { "'salt' Stylistic Alternatives in Latin lookup 1-1"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "sta" { "sta-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -55,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 4966 26 10
+WinInfo: 0 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -113,7 +114,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top" "" "diacritics top" "" 
-BeginChars: 65538 337
+BeginChars: 65539 338
 
 StartChar: space
 Encoding: 32 32 0
@@ -2577,7 +2578,7 @@ StartChar: a
 Encoding: 97 97 65
 Width: 640
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -5 75<211.079 378.609> 250 71<194.456 358> 450 80<225.98 398.874>
 VStem: 88 80<108.934 225.655> 453 13<63 176.846> 463 70<0 60.9>
 AnchorPoint: "ogonek" 533 0 basechar 0
@@ -2602,15 +2603,16 @@ SplineSet
 463 0 m 1xf4
  453 87 l 0
  453 300 l 1xf8
- 453 375 426.99609375 449.9921875 318 450 c 0
- 237.225585938 450.005859375 195.526367188 409.74609375 174 392 c 1
+ 453 375 427 450 318 450 c 0
+ 237 450 196 410 174 392 c 1
  125 443 l 1
- 144.15234375 462.734375 210.01171875 530 318 530 c 0
+ 144 463 210 530 318 530 c 0
  499 530 533 408 533 300 c 0
  533 155 533 0 533 0 c 1
- 533 0 463 0 463 0 c 1xf4
+ 463 0 l 1xf4
 EndSplineSet
 Layer: 2
+AlternateSubs2: "'salt' Stylistic Alternatives in Latin lookup 1-1" a.alt
 EndChar
 
 StartChar: b
@@ -2733,26 +2735,26 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-470 263 m 0xf4
- 470 373 410 450 315 450 c 0
- 212 450 150 378 150 263 c 0
- 150 148 212 75 315 75 c 0
- 410 75 470 153 470 263 c 0xf4
-505 263 m 0xf2
- 505 138 465 -5 300 -5 c 0
- 152 -5 65 98 65 263 c 0
- 65 428 155 530 300 530 c 0
- 465 530 505 388 505 263 c 0xf2
-545 755 m 25xf8
- 545 0 l 25
- 470 0 l 17xf4
- 460 77 l 0
- 460 149 l 0xf8
- 500 191 l 0
- 500 332 l 0xf2
- 460 396 l 0
- 460 755 l 9
- 545 755 l 25xf8
+470 263 m 4xf4
+ 470 373 410 450 315 450 c 4
+ 212 450 150 378 150 263 c 4
+ 150 148 212 75 315 75 c 4
+ 410 75 470 153 470 263 c 4xf4
+505 263 m 4xf2
+ 505 138 465 -5 300 -5 c 4
+ 152 -5 65 98 65 263 c 4
+ 65 428 155 530 300 530 c 4
+ 465 530 505 388 505 263 c 4xf2
+545 755 m 29xf8
+ 545 0 l 29
+ 470 0 l 21xf4
+ 460 77 l 4
+ 460 149 l 4xf8
+ 500 191 l 4
+ 500 332 l 4xf2
+ 460 396 l 4
+ 460 755 l 13
+ 545 755 l 29xf8
 EndSplineSet
 Validated: 5
 Layer: 2
@@ -8398,7 +8400,7 @@ StartChar: colon_slash_slash
 Encoding: 65537 -1 336
 Width: 1280
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -5 156<133.191 239.809> 369 156<133.191 239.809>
 VStem: 109.5 154<19.2149 126.785 393.215 500.785>
 LayerCount: 3
@@ -8410,6 +8412,40 @@ Refer: 26 58 N 1 0 0 1 -133.5 0 2
 Layer: 2
 LCarets2: 2 0 0
 Ligature2: "sta-1" colon slash slash
+EndChar
+
+StartChar: a.alt
+Encoding: 65538 -1 337
+Width: 640
+VWidth: 0
+Flags: HWO
+LayerCount: 3
+Back
+Fore
+SplineSet
+475 263 m 0xf4
+ 475 373 415 450 320 450 c 0
+ 217 450 155 378 155 263 c 0
+ 155 148 217 75 320 75 c 0
+ 415 75 475 153 475 263 c 0xf4
+510 263 m 0xf2
+ 510 138 470 -5 305 -5 c 0
+ 157 -5 70 98 70 263 c 0
+ 70 428 160 530 305 530 c 0
+ 470 530 510 388 510 263 c 0xf2
+550 525 m 25xf8
+ 550 0 l 25
+ 475 0 l 17xf4
+ 465 77 l 0
+ 465 149 l 0xf8
+ 505 191 l 0
+ 505 332 l 0xf2
+ 465 396 l 0
+ 465 448 l 1
+ 475 525 l 9
+ 550 525 l 25xf8
+EndSplineSet
+Layer: 2
 EndChar
 EndChars
 EndSplineFont
