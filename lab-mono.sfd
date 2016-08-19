@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1470904541
+ModificationTime: 1471623130
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,6 +44,8 @@ HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 3 0 0 "'ss01' Style Set 1 in Latin lookup 2" { "'ss01' Style Set 1 in Latin lookup 2-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'ss02' Style Set 2 in Latin lookup 3" { "'ss02' Style Set 2 in Latin lookup 3-1"  } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives in Latin lookup 1" { "'salt' Stylistic Alternatives in Latin lookup 1-1"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "sta" { "sta-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -2681,6 +2683,7 @@ SplineSet
  463 0 l 1xf4
 EndSplineSet
 Layer: 2
+AlternateSubs2: "'ss01' Style Set 1 in Latin lookup 2-1" a.alt
 AlternateSubs2: "'salt' Stylistic Alternatives in Latin lookup 1-1" a.alt
 EndChar
 
@@ -2989,6 +2992,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
+AlternateSubs2: "'ss02' Style Set 2 in Latin lookup 3-1" g.alt
 AlternateSubs2: "'salt' Stylistic Alternatives in Latin lookup 1-1" g.alt
 EndChar
 
@@ -4420,7 +4424,7 @@ StartChar: multiply
 Encoding: 215 215 120
 Width: 640
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
