@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1476797531
+ModificationTime: 1480782833
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,16 +50,18 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Posit
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: UnicodeBmp
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 10
+WinInfo: 65286 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
+643 1300 m 0
+ 643 -700 l 1024
 -1000 71 m 0
  2000 71 l 1024
 70 1300 m 0
@@ -118,7 +120,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top"""  "diacritics top""" 
-BeginChars: 65540 339
+BeginChars: 65541 340
 
 StartChar: space
 Encoding: 32 32 0
@@ -383,7 +385,7 @@ StartChar: parenleft
 Encoding: 40 40 8
 Width: 640
 VWidth: 0
-Flags: HWO
+Flags: HW
 VStem: 183 90<205.149 498.851>
 LayerCount: 3
 Back
@@ -406,16 +408,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-310 352 m 4
- 220 352 l 4
- 220 504 277 682 449 808 c 5
- 498 744 l 5
- 350 625 310 478 310 352 c 4
-310 352 m 4
- 310 226 350 79 498 -40 c 5
- 449 -104 l 5
- 277 22 220 200 220 352 c 4
- 310 352 l 4
+310 352 m 0
+ 220 352 l 0
+ 220 504 277 682 449 808 c 1
+ 498 744 l 1
+ 350 625 310 478 310 352 c 0
+310 352 m 0
+ 310 226 350 79 498 -40 c 1
+ 449 -104 l 1
+ 277 22 220 200 220 352 c 0
+ 310 352 l 0
 EndSplineSet
 EndChar
 
@@ -8301,6 +8303,57 @@ SplineSet
  511 -205 545 -83 545 25 c 0
  545 170 545 325 545 325 c 1
  475 325 l 1xf4
+EndSplineSet
+EndChar
+
+StartChar: smileyhappy
+Encoding: 65540 9786 339
+Width: 640
+VWidth: 0
+Flags: HWO
+LayerCount: 3
+Fore
+SplineSet
+320 232 m 0
+ 345 232 360 245 371 267 c 0
+ 403 255 l 0
+ 392 203 356 182 320 182 c 0
+ 320 232 l 0
+336 383 m 0
+ 336 435 379 478 431 478 c 0
+ 483 478 526 435 526 383 c 0
+ 526 331 483 288 431 288 c 0
+ 379 288 336 331 336 383 c 0
+115 383 m 0
+ 115 435 158 478 210 478 c 0
+ 262 478 305 435 305 383 c 0
+ 305 331 262 288 210 288 c 0
+ 158 288 115 331 115 383 c 0
+320 232 m 0
+ 320 182 l 0
+ 284 182 248 203 237 255 c 0
+ 269 267 l 0
+ 280 245 295 232 320 232 c 0
+362 393 m 0
+ 362 369 381 350 405 350 c 0
+ 429 350 448 369 448 393 c 0
+ 448 417 429 436 405 436 c 0
+ 381 436 362 417 362 393 c 0
+192 393 m 0
+ 192 369 211 350 235 350 c 0
+ 259 350 278 369 278 393 c 0
+ 278 417 259 436 235 436 c 0
+ 211 436 192 417 192 393 c 0
+76 351 m 0
+ 76 216 185 107 320 107 c 0
+ 455 107 564 216 564 351 c 0
+ 564 486 455 595 320 595 c 0
+ 185 595 76 486 76 351 c 0
+6 351 m 0
+ 6 524 146 664 319 664 c 0
+ 492 664 632 524 632 351 c 0
+ 632 178 492 38 319 38 c 0
+ 146 38 6 178 6 351 c 0
 EndSplineSet
 EndChar
 EndChars
