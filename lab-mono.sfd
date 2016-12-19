@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1482138808
+ModificationTime: 1482170037
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,13 +50,13 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Posit
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: Custom
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 10
+WinInfo: 8554 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -120,7 +120,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top"""  "diacritics top""" 
-BeginChars: 65542 347
+BeginChars: 65541 349
 
 StartChar: space
 Encoding: 32 32 0
@@ -3778,7 +3778,7 @@ StartChar: asciitilde
 Encoding: 126 126 94
 Width: 640
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 275 74<336.764 443.512> 328 74<195.829 303.236>
 VStem: 121 65<282 317.23> 454 65<361.613 397>
 LayerCount: 3
@@ -7757,21 +7757,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-110 330 m 25
- 294 549 l 25
- 350 499 l 25
- 204 330 l 25
- 110 330 l 25
-110 330 m 25
- 204 330 l 25
- 350 161 l 25
- 294 111 l 25
- 110 330 l 25
-530 290 m 1
- 180 290 l 1
- 180 370 l 1
- 530 370 l 1
- 530 290 l 1
+110 330 m 29
+ 294 549 l 29
+ 350 499 l 29
+ 204 330 l 29
+ 110 330 l 29
+110 330 m 29
+ 204 330 l 29
+ 350 161 l 29
+ 294 111 l 29
+ 110 330 l 29
+530 290 m 5
+ 180 290 l 5
+ 180 370 l 5
+ 530 370 l 5
+ 530 290 l 5
 EndSplineSet
 EndChar
 
@@ -8319,7 +8319,7 @@ EndSplineSet
 EndChar
 
 StartChar: smileyhappy
-Encoding: 65540 9786 339
+Encoding: 9786 9786 339
 Width: 640
 VWidth: 0
 Flags: W
@@ -8372,7 +8372,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1F60A
-Encoding: 65541 128522 340
+Encoding: 65540 128522 340
 Width: 640
 VWidth: 0
 Flags: W
@@ -8639,6 +8639,91 @@ SplineSet
  250 0 l 5
  250 80 l 5
  485 75 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni21B2
+Encoding: 8626 8626 347
+Width: 640
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Fore
+SplineSet
+470 540 m 5
+ 550 540 l 5
+ 550 290 l 5
+ 470 290 l 5
+ 470 540 l 5
+50 330 m 29
+ 234 549 l 29
+ 290 499 l 29
+ 144 330 l 29
+ 50 330 l 29
+50 330 m 29
+ 144 330 l 29
+ 290 161 l 29
+ 234 111 l 29
+ 50 330 l 29
+470 290 m 5
+ 120 290 l 5
+ 120 370 l 5
+ 470 370 l 5
+ 470 290 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni21B3
+Encoding: 8627 8627 348
+Width: 640
+VWidth: 0
+Flags: HWO
+LayerCount: 3
+Back
+SplineSet
+470 540 m 1
+ 550 540 l 1
+ 550 290 l 1
+ 470 290 l 1
+ 470 540 l 1
+50 330 m 25
+ 234 549 l 25
+ 290 499 l 25
+ 144 330 l 25
+ 50 330 l 25
+50 330 m 25
+ 144 330 l 25
+ 290 161 l 25
+ 234 111 l 25
+ 50 330 l 25
+470 290 m 1
+ 120 290 l 1
+ 120 370 l 1
+ 470 370 l 1
+ 470 290 l 1
+EndSplineSet
+Fore
+SplineSet
+170 540 m 1
+ 90 540 l 1
+ 90 290 l 1
+ 170 290 l 1
+ 170 540 l 1
+590 330 m 25
+ 406 549 l 25
+ 350 499 l 25
+ 496 330 l 25
+ 590 330 l 25
+590 330 m 25
+ 496 330 l 25
+ 350 161 l 25
+ 406 111 l 25
+ 590 330 l 25
+170 290 m 1
+ 520 290 l 1
+ 520 370 l 1
+ 170 370 l 1
+ 170 290 l 1
 EndSplineSet
 EndChar
 EndChars
