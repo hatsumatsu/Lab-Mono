@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1482170639
+ModificationTime: 1482247187
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 9958 26 10
+WinInfo: 182 26 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -120,7 +120,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 671088 335544 223696 550502 1048576 223696 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ogonek" "'mark' Mark Positioning in Latin lookup 0-1" "cedilla" "'mark' Mark Positioning in Latin lookup 0-1" "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" "Diacritics Top"""  "diacritics top""" 
-BeginChars: 65541 349
+BeginChars: 65541 351
 
 StartChar: space
 Encoding: 32 32 0
@@ -7886,7 +7886,7 @@ StartChar: uni2714
 Encoding: 10004 10004 324
 Width: 640
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -8725,6 +8725,28 @@ SplineSet
  170 370 l 1
  170 290 l 1
 EndSplineSet
+EndChar
+
+StartChar: Ldot
+Encoding: 319 319 349
+Width: 640
+VWidth: 0
+Flags: H
+LayerCount: 3
+Fore
+Refer: 187 183 S 1 0 0 1 89.5 4 2
+Refer: 44 76 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ldot
+Encoding: 320 320 350
+Width: 640
+VWidth: 0
+Flags: HWO
+LayerCount: 3
+Fore
+Refer: 187 183 N 1 0 0 1 120 0 2
+Refer: 76 108 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
