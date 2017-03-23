@@ -3,6 +3,7 @@
 # Lab Mono
 
 **Geometric monospaced typeface**
+
 Work in Progress, check back for updates!
 
 [Specimen](http://martinwecke.de/lab-mono/)
@@ -10,7 +11,9 @@ Work in Progress, check back for updates!
 [Download](https://github.com/hatsumatsu/Lab-Mono/archive/master.zip)
 
 Let me know how you use it:
+
 [@martinwecke](https://twitter.com/martinwecke)
+
 [hi@martinwecke.de](mailto:hi@martinwecke.de)
 
 ## License
