@@ -1,11 +1,17 @@
+![Lab Mono](https://raw.githubusercontent.com/hatsumatsu/Lab-Mono/master/sample.png)
+
 # Lab Mono
 
-**Grotesque-esque monospaced typeface**
-Work in Progress... :ok_hand:
+**Geometric monospaced typeface**
+Work in Progress, check back for updates!
 
 [Specimen](http://martinwecke.de/lab-mono/)
 
 [Download](https://github.com/hatsumatsu/Lab-Mono/archive/master.zip)
+
+Let me know how you use it:
+[@martinwecke](https://twitter.com/martinwecke)
+[hi@martinwecke.de](mailto:hi@martinwecke.de)
 
 ## License
 
