@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1425044595
-ModificationTime: 1497629665
+ModificationTime: 1502182245
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 25 25 10
+WinInfo: 0 28 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -251,17 +251,22 @@ StartChar: dollar
 Encoding: 36 36 4
 Width: 640
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -7 82<223.471 399.534> 630 82<249.83 402.654>
 VStem: 128 88<476.039 597.177> 298 66<-87 792> 462 88<131.507 261.753>
 LayerCount: 3
 Fore
 SplineSet
-291 -127 m 1
- 291 842 l 1
- 357 842 l 1
- 357 -127 l 1
- 291 -127 l 1
+284 673 m 1
+ 284 842 l 1
+ 364 842 l 1
+ 364 673 l 1
+ 284 673 l 1
+284 -127 m 1
+ 284 52 l 1
+ 364 52 l 1
+ 364 -127 l 1
+ 284 -127 l 1
 EndSplineSet
 Refer: 51 83 N 1 0 0 1 0 0 2
 EndChar
@@ -3828,7 +3833,7 @@ StartChar: section
 Encoding: 167 167 97
 Width: 640
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -204.253 80<216.974 391.46> 632 80<246.54 421.026>
 VStem: 88 86<226.794 359.539> 128 85<477.268 598.475> 425 85<-90.7275 30.4787> 464 86<148.208 280.953>
 LayerCount: 3
